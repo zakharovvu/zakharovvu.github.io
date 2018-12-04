@@ -1,0 +1,67 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <meta http-equiv="X-UA-Compatible" content="ie=edge">
+    <link rel="stylesheet" href="style.css">
+    <link href="https://fonts.googleapis.com/css?family=Electrolize" rel="stylesheet">
+    
+    <title>Calculate</title>
+</head>
+<body>
+   <div id="calculate" class="calculate">
+        <div id="disp" class="display">
+            0
+        </div>
+        <div class="specknopki">
+            <button onclick="f1('mc')" id="spec1" class="bor">mc</button>
+            <button onclick="f1('mr')" id="spec2" class="bor">mr</button>
+            <button onclick="f1('m+')" id="spec3" class="bor">m+</button>
+            <button onclick="f1('m-')" id="spec4" class="bor">m-</button>
+            <button onclick="f1('ms')" id="spec5" class="bor">ms</button>
+            <button onclick="f1('m^')" id="spec6" class="bor">m^</button>
+       </div>
+       <div class="kno">
+        <div class="knopki">
+           <button onclick="f1('%')" id="knopka1" class="razmer">%</button>
+           <button onclick="f1('#')" id="knopka2" class="razmer">#</button>
+           <button onclick="f1('x2')" id="knopka3" class="razmer">x<sup>2</sup></button>
+           <button onclick="f1('1x')" id="knopka4" class="razmer"><sup>1</sup>/x</button>
+       </div>
+       <div class="knopki">
+           <button onclick="f4('ce')" id="knopka5" class="razmer">ce</button>
+           <button onclick="f4('c')" id="knopka6" class="razmer">c</button>
+           <button onclick="f('---')" id="knopka7" class="razmer">---</button>
+           <button onclick="f2('/')" id="knopka8" class="razmer">/</button>
+        </div>
+        <div class="knopki">
+           <button onclick="f1(7)" id="knopka9" class="razmer knopka" data-numberc="c">7</button>
+           <button onclick="f1(8)" id="knopka10" class="razmer knopka" data-numberc="c">8</button>
+           <button onclick="f1(9)" id="knopka11" class="razmer knopka" data-numberc="c">9</button>
+           <button onclick="f2('*')" id="knopka12" class="razmer">*</button>
+        </div>
+        <div class="knopki">
+           <button onclick="f1(4)" id="knopka13" class="razmer knopka" data-numberc="c">4</button>
+           <button onclick="f1(5)" id="knopka14" class="razmer knopka" data-numberc="c">5</button>
+           <button onclick="f1(6)" id="knopka15" class="razmer knopka" data-numberc="c">6</button>
+           <button onclick="f2('-')" id="knopka16" class="razmer">-</button>
+        </div>
+        <div class="knopki">
+           <button onclick="f1(1)" id="knopka17" class="razmer knopka" data-numberc="c">1</button>
+           <button onclick="f1(2)" id="knopka18" class="razmer knopka" data-numberc="c">2</button>
+           <button onclick="f1(3)" id="knopka19" class="razmer knopka" data-numberc="c">3</button>
+           <button onclick="f2('+')" id="knopka20" class="razmer">+</button>
+        </div>
+        <div class="knopki">
+           <button onclick="f1('-')" id="knopka21" class="razmer">+-</button>
+           <button onclick="f1('0')" id="knopka22" class="razmer knopka" data-numberc="c">0</button>
+           <button onclick="f1('.')" id="knopka23" class="razmer">,</button>
+           <button onclick="f3('=')" id="knopka24" class="razmer">=</button>
+        </div>      
+        </div>
+   </div>
+   
+    <script src="javascript.js"></script>
+</body>
+</html>

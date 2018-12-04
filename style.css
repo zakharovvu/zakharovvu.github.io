@@ -1,0 +1,67 @@
+:root{
+    --main-bg-color: rgb(230, 230, 230);
+}
+body{
+    
+}
+.calculate{
+    background-color: var(--main-bg-color);
+    margin: 20px auto;
+    width: 428px;
+    height: 710px;
+    border: 1px solid rgb(34, 56, 255);
+    box-shadow: 0 0 10px rgba(0,0,0,0.5); 
+}
+.display{
+   
+    height: 225px;
+    width: 100%;
+}
+.specknopki{
+    display: flex;
+    justify-content: space-around;
+}
+.bor{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    text-transform: uppercase;
+    font-weight: bold;
+    letter-spacing: 1px;
+    font-size: 18px;
+    width: 67px;
+    height: 40px;
+    border: 1px solid var(--main-bg-color);
+}
+button:hover{
+    border: 1px solid black;
+}
+button{
+    background-color: var(--main-bg-color);
+}
+.razmer{
+    height: 73px;
+    min-width: 100px;
+    background-color: var(--main-bg-color);
+    font-size: 28px;
+    text-transform: uppercase;
+}
+.knopki{
+    display: flex;
+    justify-content: space-around;
+    
+}
+.knopka{
+    background: #fff;
+    font-weight: bold;
+    font-size: 38px;
+}
+.display{
+    display: flex;
+    justify-content: flex-end;
+    align-items: flex-end;
+    font-family: 'Electrolize', sans-serif;
+    font-size: 72px;
+    font-weight: bold;
+}
+
